@@ -72,6 +72,8 @@ const getAcountUser = (req, res, next) => {
 
 const addUser = (req, res, next) => {
         var user = new Users({
+            id: req.body.id,
+            role: req.body.role,
             email: req.body.email,
             password: req.body.password,
             phone: req.body.phone,
