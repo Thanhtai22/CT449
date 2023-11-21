@@ -60,7 +60,7 @@ import webService from '../../services/web.service';
         
         const confirmDelete = confirm(`Bạn có chắc chắn muốn xóa sản phẩm ${productId} không?`);
         if(confirmDelete){
-          axios.delete(`http://localhost:3004/api/deleteproduct?id=${productId}`);
+          axios.delete(`http://localhost:3002/api/deleteproduct?id=${productId}`);
           window.location.reload();
         }
       },

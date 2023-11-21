@@ -57,7 +57,7 @@
       async submitorder(id) {
         const confirmsubmit = confirm('Bạn có chắc chắn muốn duyệt đơn hàng này không??');
         if(confirmsubmit) {
-          axios.put(`http://localhost:3004/api/orders?id=${id}`);
+          axios.put(`http://localhost:3002/api/orders?id=${id}`);
           window.location.reload();
         }
 

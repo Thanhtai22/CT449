@@ -42,7 +42,7 @@ import axios from 'axios';
         id: id,
         quantity: quantity,
       };
-      axios.post('http://localhost:3004/api/cart', data);
+      axios.post('http://localhost:3002/api/cart', data);
       alert('đã thêm vào giỏ hàng!!');
     }
 

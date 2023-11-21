@@ -40,7 +40,7 @@ export default {
   },
   methods: {
     addProduct() {
-      axios.post('http://localhost:3004/api/addproduct', this.productData);
+      axios.post('http://localhost:3002/api/addproduct', this.productData);
         alert('Thêm sản phẩm mới thành công!!')
     }
   }

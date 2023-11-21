@@ -73,7 +73,7 @@
 			image: '',
 			city: '',
 			address: '',
-			doman: 'http://localhost:3004/',
+			doman: 'http://localhost:3002/',
 			error: '',
 		}
 	},
@@ -88,7 +88,7 @@
 				phone: this.phone,
 			}
 
-			axios.post('http://localhost:3004/api/user',
+			axios.post('http://localhost:3002/api/user',
 					data
 			)
 			.then(res => {

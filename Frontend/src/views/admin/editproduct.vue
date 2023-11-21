@@ -52,7 +52,7 @@
             this.productData = await webService.getProductId(this.$route.params.id);
         },
         async editProduct() {
-            axios.put(`http://localhost:3004/api/editproduct?id=${this.$route.params.id}`, this.productData);
+            axios.put(`http://localhost:3002/api/editproduct?id=${this.$route.params.id}`, this.productData);
             const confirmEdit = confirm("Cập nhật thành công. Bạn có muốn quay lại trang sản phẩm không??");
             if(confirmEdit) {
                 window.history.back();

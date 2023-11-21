@@ -81,13 +81,13 @@ import webService from '../services/web.service';
             async deleteCart(idcart, idproduct) {
               const confirmDelete = confirm("Bạn có chắc chắn muốn xóa nó không?");
               if (confirmDelete) {
-                axios.put(`http://localhost:3004/api/deleteCart?idcart=${idcart}&idproduct=${idproduct}`);
+                axios.put(`http://localhost:3002/api/deleteCart?idcart=${idcart}&idproduct=${idproduct}`);
                 window.location.reload();
               }
             },
             async submitForm() {
               const email = this.$store.state.email;
-              axios.put(`http://localhost:3004/api/ordered?email=${email}`);
+              axios.put(`http://localhost:3002/api/ordered?email=${email}`);
               alert('Đặt hàng thành công');
             }
         }
