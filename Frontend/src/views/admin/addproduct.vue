@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h2 style="color: #FF5733;">Thêm Sản Phẩm</h2>
+      <h2 style="color: #489dec;">Thêm Sản Phẩm</h2>
       <form @submit.prevent="addProduct" style="max-width: 400px; margin: auto;">
         <div class="mb-3">
           <label for="image" class="form-label" style="color: #336699;">Link Hình Ảnh:</label>
@@ -18,7 +18,7 @@
           <label for="soLuongNhap" class="form-label" style="color: #336699;">Số Lượng Nhập:</label>
           <input type="number" class="form-control" id="soLuongNhap" v-model="productData.so_luong_nhap" required>
         </div>
-        <button type="submit" class="btn btn-primary" style="background-color: #FF5733;">Thêm Sản Phẩm</button>
+        <button type="submit" class="btn btn-primary" style="background-color: #489dec;">Thêm Sản Phẩm</button>
       </form>
     </div>
   </template>

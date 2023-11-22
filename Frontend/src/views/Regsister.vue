@@ -4,8 +4,8 @@
 		<Header />
 		<div class="header_detail" style="display: flex; justify-content: center; background: white; padding-bottom: 10px;">
 			<div style="width: 70%; padding-top: 7px;">
-				<router-link to="/" style="text-decoration: none; color: green;">Trang chủ /</router-link>
-				<span style="font-weight: 300; font-size: 14px; color: rgb(161, 160, 160);">Thông Tin Chi Tiết</span>
+				<router-link to="/" style="text-decoration: none; color: rgb(0, 167, 70);">Trang chủ</router-link>
+				
 			</div>
 		</div>
 		<div class='container'>

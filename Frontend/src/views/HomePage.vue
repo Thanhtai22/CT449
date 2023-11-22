@@ -1,13 +1,13 @@
 <template>
   <div class="container mt-4">
-    <h1 class="mb-4">Danh sách truyện tranh</h1>
+    <h2 class="mb-4">Danh sách sản phẩm</h2>
     <div class="row">
-      <div class="col-md-3 mb-4" v-for="product in products" :key="product.id">
+      <div class="col-md-3 mb-3" v-for="product in products" :key="product.id">
         <div class="card">
           <img :src="product.image" class="card-img-top image-container" alt="Comic">
           <div class="card-body">
             <h5 class="card-title">{{ product.product_name }}</h5>
-            <p class="card-text">{{ product.product_price }} đồng</p>
+            <p class="card-text">{{ product.product_price }} VND</p>
             <button @click="addToCart( product._id, quantity )" class="btn btn-primary">Thêm vào giỏ hàng</button>
           </div>
         </div>
@@ -55,9 +55,9 @@ import axios from 'axios';
 <style>
 .image-container {
   margin:0px 0 0 0px;
-  width: 200px;  /* Định rõ kích thước chiều rộng */
-  height: 300px; /* Định rõ kích thước chiều cao */
-  object-fit: cover; /* Giữ tỷ lệ khung hình và cắt ảnh để vừa khung */
+  width: 150px;  
+  height: 250px; 
+  object-fit: cover; 
 }
 
 .card{

@@ -1,7 +1,7 @@
 <template>
   <div class="container mt-5" style="position: relative;">
-    <img src="https://haycafe.vn/wp-content/uploads/2022/03/Background-anime-Conan-cute.jpg" alt="Hình ảnh giới thiệu" style="max-width: 80%; display: block; margin: 0 auto;">
-    <div class="card mt-5" style="position: absolute; top: 50%; left: 30%; transform: translate(-30%, -70%); width: 350px;">
+    <img src="https://www.thethaothientruong.vn/uploads/contents/galaxy-gym-club-can-tho.jpg" alt="Hình ảnh giới thiệu" style="max-width: 100%; display: block; margin: 0 auto;">
+    <div class="card mt-5" style="position: absolute; top: 58%; left: 44%; transform: translate(-30%, -70%); width: 350px;">
       <div class="card-body">
         <h3 class="text-center mb-4">Đăng nhập</h3>
         <form @submit.prevent="login">

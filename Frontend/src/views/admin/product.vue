@@ -70,8 +70,8 @@ import webService from '../../services/web.service';
   
   <style scoped>
   .btn-primary {
-    background-color: #ff8c00;
-    border-color: #ff8c00;
+    background-color: #489dec;
+    border-color: #489dec;
   }
   
   .btn-primary:hover {

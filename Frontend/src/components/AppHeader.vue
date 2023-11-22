@@ -14,9 +14,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="/admin/order"><b>Đơn hàng</b></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/admin/statistic"><b>Thông kê</b></a>
-              </li>
+              
               
               <li class="nav-item">
                 <router-link v-if="!$store.state.email" to="/login" class="nav-link"><b>Đăng nhập</b></router-link>
